@@ -1,0 +1,406 @@
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta id="viewport" name="viewport" content="width=device-width, usersalable=no">
+		<title>Projeto 2</title>
+		<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+	</head>
+
+	<body>
+			<div class="topo">
+				<div class="topo-conteudo">
+					<div class="topo-content-left">
+						<ul>
+							<li><A HREF="#" class="ativo">Home</A></li>
+							<li><a href="#">Quem Somos</a></li>
+							<li><a href="#">Anuncie Aqui</a></li>
+							<li><A HREF="#">Contato</A></li>
+							
+						</ul>
+					</div>
+				
+					<div class="topo-content-right">
+						<input type="image" border="0" src="assets/images/lupa.png" width="26" height="26">
+						<input class="topo-busca"type="text" name="busca"  placeholder="Buscar ...."/>
+						
+						<a href="#"><img src="assets/images/youtube.png" border="0" width="26" height="26"></a>
+						<a href="#"><img src="assets/images/twitter.png" border="0" width="26" height="26"></a>
+						<a href="#"><img src="assets/images/facebook.png" border="0" width="26" height="26"></a>
+						<a href="#"><img src="assets/images/googleplus.png" border="0" width="26" height="26"></a>
+						<a href="#"><img src="assets/images/rss.png" border="0" width="26" height="26"></a>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="topo-logos">
+					<div class="topo-logo-conteudo">
+						<div class="logo">
+							<img src="assets/images/logo.png" border="0" width="230">
+						</div>
+						
+						<div class="banner">
+
+						</div>	
+					</div>
+			</div>
+
+			<div class="todo-menu">
+				<div class="menu">
+                    <img class="menumobile" src="assets/images/menu.png" height="40" width="40" border="0" onclick="toogglemenu()"/>
+					<ul id="menu">
+						<li><a href="#" class="ativo">Home</a></li>
+						<li><a href="#">Economia</a></li>
+						<li>
+							<a href="#">Entretenimento</a> 
+							<img src="assets/images/arrowdown.png" border="0" width="10">
+							<div class="submenu">
+								<a href="#"><div class="submenu-item">
+									subMenu 1
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 2
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 3
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 4
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 5
+								</div></a>
+							</div>
+						</li>
+						<li>
+							<a href="#">Esporte</a>
+							<img src="assets/images/arrowdown.png" border="0" width="10">
+							<div class="submenu">
+								<a href="#"><div class="submenu-item">
+									subMenu 1
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 2
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 3
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 4
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 5
+								</div></a>
+							</div>
+						</li>
+						<li><a href="#">Geral</a></li>
+						<li>
+							<a href="#">Noticias</a>
+							<img src="assets/images/arrowdown.png" border="0" width="10">
+							<div class="submenu">
+								<a href="#"><div class="submenu-item">
+									subMenu 1
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 2
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 3
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 4
+								</div></a>
+								<a href="#"><div class="submenu-item">
+									subMenu 5<img src="assets/images/arrowdown.png" border="0" width="10">
+										<div class="submenu1">
+											<a href="#"><div class="submenu-item1">
+												subMenu 1
+											</div></a>
+											<a href="#"><div class="submenu-item1">
+												subMenu 2
+											</div></a>
+											<a href="#"><div class="submenu-item1">
+												subMenu 3
+											</div></a>
+											<a href="#"><div class="submenu-item1">
+												subMenu 4
+											</div></a>
+											<a href="#"><div class="submenu-item1">
+												subMenu 5
+											</div></a>
+										</div>	
+								</div></a>
+							</div>
+						</li>
+						<li><a href="#">Politica</a></li>
+						<li><a href="#">Videos</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="noticias">
+				<div class="noticias-conteudo">
+					<div class="noticas-infor">
+						<div class="noticas-banner">
+							ÚLTIMAS NOTICIAS
+						</div>
+						<div class="noticas-aviso">
+							Alguma notícia de algum texto que irá ficar por aqui mesmo.
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="conatainer">
+				<div class="container-corpo">
+					<div class="container-noticias">
+
+							<div class="slideshow" id="slideshow">
+								<div class="slidecontrol">
+									<div class="control" id="0" onclick="mudarSlide(0)"></div>
+									<div class="control" id="1" onclick="mudarSlide(1)"></div>
+									<div class="control" id="2" onclick="mudarSlide(2)"></div>
+									<div class="control" id="3" onclick="mudarSlide(3)"></div>
+								</div>
+								<div class="slideshow-area">
+									<a href="#">
+										<div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')" >	
+											<div class="slideinfo">
+												<div class="Slideinfo-titulo">Titulo de teste 1</div>
+												<div class="Slideinfo-subtitulo">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+											 has roots in a piece of classical Latin literature from 45 BC, making it over
+											  2000 years old.</div>
+											</div>	
+										</div>
+									</a>
+									<a href="#">
+										<div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')" >	
+											<div class="slideinfo">
+												<div class="Slideinfo-titulo">Titulo de teste 2</div>
+												<div class="Slideinfo-subtitulo">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+											 has roots in a piece of classical Latin literature from 45 BC, making it over
+											  2000 years old.</div>
+											</div>	
+										</div>
+									</a>
+									<a href="#">
+										<div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')" >	
+											<div class="slideinfo">
+												<div class="Slideinfo-titulo">Titulo de teste 3</div>
+												<div class="Slideinfo-subtitulo">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+											 has roots in a piece of classical Latin literature from 45 BC, making it over
+											  2000 years old.</div>
+											</div>	
+										</div>
+									</a>
+									<a href="#">
+										<div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')" >	
+											<div class="slideinfo">
+												<div class="Slideinfo-titulo">Titulo de teste 4</div>
+												<div class="Slideinfo-subtitulo">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+											 has roots in a piece of classical Latin literature from 45 BC, making it over
+											  2000 years old.</div>
+											</div>	
+										</div>
+									</a>
+									
+								
+								</div>
+							</div>
+
+							<div class="widget">
+								<div class="widget-titulo">
+								NOTICIAS
+								</div>
+
+								<div class="widget-conteudo">
+									<div class="noticiaarea-principal">
+
+										<div class="noticiaitem noticiabig">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer Algum titulo 
+												qualquerAlgum titulo qualquerAlgum titulo </div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+									</div>
+
+									<div class="noticiaarea-destaque">
+
+										<div class="noticiaitem">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer</div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+										<div class="noticiaitem">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer</div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+										<div class="noticiaitem">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer</div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+										<div class="noticiaitem">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer</div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+
+									</div>
+
+									<div style="clear:both"></div>
+								</div>
+							</div>
+
+							<div class="widget">
+								<div class="widget-titulo">
+								NOTICIAS
+								</div>
+								
+								<div class="widget-conteudo">
+									<div class="noticiaarea-principal">
+
+										<div class="noticiaitem noticiabig">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer Algum titulo 
+												qualquerAlgum titulo qualquerAlgum titulo </div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+									</div>
+
+									<div class="noticiaarea-destaque">
+
+										<div class="noticiaitem">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer</div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+										<div class="noticiaitem">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer</div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+										<div class="noticiaitem">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer</div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+										<div class="noticiaitem">									
+											<div class="noticiaimg" >
+												<img src="" border="0" width="80" height="80"/>
+											</div>
+											<div class="noticiatitulo"> Algum titulo qualquer</div>
+											<div class="noticiainfo"> 500 comentarios</div>
+										</div>
+
+									</div>
+
+									<div style="clear:both"></div>
+								</div>
+							</div>
+
+					</div>
+					
+					<div class="container-destaques">
+						<div class="widget">
+							<div class="widget-titulo">
+								SOCIAL
+							</div>
+							<div class="widget-conteudo">
+								<a href="#"><img src="assets/images/youtube.png" border="0" width="26" height="26"></a>
+								<a href="#"><img src="assets/images/twitter.png" border="0" width="26" height="26"></a>
+								<a href="#"><img src="assets/images/facebook.png" border="0" width="26" height="26"></a>
+								<a href="#"><img src="assets/images/googleplus.png" border="0" width="26" height="26"></a>
+								<a href="#"><img src="assets/images/rss.png" border="0" width="26" height="26"></a>
+							</div>
+						</div>
+
+						<div class="widget">
+							<div class="widget-titulo">
+								ULTIMAS NOTICIAS
+							</div>
+							<div class="widget-conteudo">
+								<div class="noticia-item">
+									<a href="#">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+									 has roots in a piece of classical Latin literature from 45 BC, making it over
+									  2000 years old. </a> 
+								</div>
+								<div class="noticia-item">
+									<a href="#">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+									 has roots in a piece of classical Latin literature from 45 BC, making it over
+									  2000 years old. </a> 
+								</div>
+								<div class="noticia-item">
+									<a href="#">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+									 has roots in a piece of classical Latin literature from 45 BC, making it over
+									  2000 years old. </a> 
+								</div>
+								<div class="noticia-item">
+									<a href="#">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+									 has roots in a piece of classical Latin literature from 45 BC, making it over
+									  2000 years old. </a> 
+								</div>
+								<div class="noticia-item">
+									<a href="#">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+									 has roots in a piece of classical Latin literature from 45 BC, making it over
+									  2000 years old. </a> 
+								</div>
+								<div class="noticia-item">
+									<a href="#">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+									 has roots in a piece of classical Latin literature from 45 BC, making it over
+									  2000 years old. </a> 
+								</div>
+
+							
+
+							</div>
+						</div>
+
+
+						<div class="widget">
+							<div class="widget-titulo">
+								PUBLICIDADE
+							</div>
+							<div class="widget-conteudo">
+								<img src="assets/images/banner.jpg" border="0" width="275" >
+							</div>
+						</div>
+
+							<div class="widget">
+							<div class="widget-titulo">
+								ENCONTRE-NOS NO FACEBOOK
+							</div>
+							<div class="widget-conteudo">
+								<iframe src="https://www.facebook.com/plugins/page.php?href=http%3A%2F%2Fwww.facebook.com%2FLeandrodsdias&tabs=timeline%2Cevents%2Cmessage&width=0&height=0&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2347824578775239" width="0" height="0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+        <footer class="footer"> Copyright 2017 </footer>
+		<script type="text/javascript" src="assets/JavaScript/script.js"></script>
+	</body>
+
+</html>
