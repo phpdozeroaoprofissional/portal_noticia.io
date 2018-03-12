@@ -1,5 +1,5 @@
 # portal_noticia.io
-projeto portal de noticias fictício 
+projeto portal de noticias fictício do curso phpdozeroaoprofissional.
 
 projeto do modulo de html 5 e css3
 
